@@ -1,0 +1,99 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: #E5E5E5!important;
+}
+
+
+
+.sidebar {
+  background-color: white;
+  padding: 20px;
+}
+
+.live-sidebar {
+  display: flex;
+  align-items: center;
+}
+
+.live-text {
+  color: red;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.live-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background-color:#C31815;
+  border-radius: 50%;
+}
+
+.sidebar-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sidebar-image img {
+  width: 100%;
+  max-width: 436px;
+  height: auto;
+}
+
+.sidebar-title {
+  margin-top: 10px;
+}
+
+.nav-tabs .nav-link {
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid rgb(175, 31, 31);
+}
+
+body {
+  background-color: #fff; /* Arka plan beyaz */
+}
+
+.navbar-brand img {
+  height: 30px; /* Küçük logo boyutu */
+  margin-right: 5px;
+}
+.card-shadow {
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-shadow:hover {
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+  background-color: #ffffff;
+  color: #000000;
+}
+.navbar-brand img {
+  height: 30px;
+}
+.nav-link {
+  color: #000000;
+}
+.nav-link:hover {
+  color: #007bff;
+}
+
+.news-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+}
